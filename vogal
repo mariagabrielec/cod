@@ -1,0 +1,6 @@
+frase = input("Digite uma frase: ").lower() #pede uma frase para o usuário e deixa todas as letras em minusculo
+for i in frase: #pega cada caracter da frase
+    if i in "aeiou": #verifica se ele está no grupo de vogais
+        print("*",end="") #se estiver imprime * invés dele
+    else:
+        print(i,end="") #se não estiver, imprime o caracter
