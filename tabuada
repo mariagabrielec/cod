@@ -1,0 +1,4 @@
+tabuada = int(input("Digite o número que deseja saber a tabuada:"))#recebe o numero do usuario
+for i in range(1,11): #pega um número até 10
+    print(f'{tabuada}X{i} = {tabuada*i}') #faz esse numero multiplicado pelo numero
+                                            #passado pelo usuario
