@@ -1,0 +1,6 @@
+def soma_matriz(lista): #pega a matriz como parametro
+    soma = 0 # variável para armazenar a soma dos elementos
+    for i in lista: # passa por cada elemento da lista
+        soma+= i # soma ele com a variável soma,
+                    # deixando a variável soma igual a soma deste elemento
+    return soma #retorna a variavel soma com a soma de todos os elementos
